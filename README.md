@@ -49,28 +49,22 @@ Depending on what you are making, it can be a good idea to include screenshots o
 <table>
   <tr>
     <td>
-      <img src="https://github.com/LuleSc/Bioloop/blob/main/Surface_evolution.png?raw=true" alt="Image 1" width="200"/>
+      <img src="https://github.com/LuleSc/Bioloop/blob/main/Surface_evolution.png?raw=true" alt="Image 1" width="500"/>
     </td>
     <td>
-      <img src="https://github.com/LuleSc/Bioloop/blob/main/Renovation_surface_evolution.png?raw=true" alt="Image 2" width="200"/>
+      <img src="https://github.com/LuleSc/Bioloop/blob/main/Renovation_surface_evolution.png?raw=true" alt="Image 2" width="500"/>
     </td>
   </tr>
   <tr>
     <td>
-      <img src="https://github.com/LuleSc/Bioloop/blob/main/Image3.png?raw=true" alt="Image 3" width="200"/>
+      <img src="https://github.com/LuleSc/Bioloop/blob/main/Image3.png?raw=true" alt="Image 3" width="500"/>
     </td>
     <td>
-      <img src="https://github.com/LuleSc/Bioloop/blob/main/Image4.png?raw=true" alt="Image 4" width="200"/>
+      <img src="https://github.com/LuleSc/Bioloop/blob/main/Image4.png?raw=true" alt="Image 4" width="500"/>
     </td>
   </tr>
 </table>
 
-![alt text](https://github.com/LuleSc/Bioloop/blob/main/Surface_evolution.png?raw|width=10)
-![alt text](https://github.com/LuleSc/Bioloop/blob/main/Renovation_surface_evolution.png?raw=true)
-
-
-<img src="https://github.com/LuleSc/Bioloop/blob/main/Image3.png?raw=true" alt="alt text" width="300"/>
-<img src="https://github.com/LuleSc/Bioloop/blob/main/Image4.png?raw=true" alt="alt text" width="300"/>
 
 
 
