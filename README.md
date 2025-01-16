@@ -49,7 +49,7 @@ Depending on what you are making, it can be a good idea to include screenshots o
 ![alt text](https://github.com/LuleSc/Bioloop/blob/main/Renovation_surface_evolution.png?raw=true)
 
 
-![alt text](https://github.com/LuleSc/Bioloop/blob/main/Image3.png?raw=true)
+<img src="https://github.com/LuleSc/Bioloop/blob/main/Image3.png?raw=true" alt="alt text" width="300"/>
 ![alt text](https://github.com/LuleSc/Bioloop/blob/main/Image4.png?raw=true)
 
 
