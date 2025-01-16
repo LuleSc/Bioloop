@@ -45,7 +45,7 @@ Paralele coordinate in Bioloop
 
 
 Depending on what you are making, it can be a good idea to include screenshots or even a video (you'll frequently see GIFs rather than actual videos). Tools like ttygif can help, but check out Asciinema for a more sophisticated method.
-![alt text](https://github.com/LuleSc/Bioloop/blob/main/Surface_evolution.png?raw=true| width=100)
+![alt text](https://github.com/LuleSc/Bioloop/blob/main/Surface_evolution.png?raw=true|width=100)
 ![alt text](https://github.com/LuleSc/Bioloop/blob/main/Renovation_surface_evolution.png?raw=true)
 
 
