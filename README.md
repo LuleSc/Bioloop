@@ -45,12 +45,33 @@ Paralele coordinate in Bioloop
 
 
 Depending on what you are making, it can be a good idea to include screenshots or even a video (you'll frequently see GIFs rather than actual videos). Tools like ttygif can help, but check out Asciinema for a more sophisticated method.
+
+<table>
+  <tr>
+    <td>
+      <img src="https://github.com/LuleSc/Bioloop/blob/main/Surface_evolution.png?raw=true" alt="Image 1" width="200"/>
+    </td>
+    <td>
+      <img src="https://github.com/LuleSc/Bioloop/blob/main/Renovation_surface_evolution.png?raw=true" alt="Image 2" width="200"/>
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <img src="https://github.com/LuleSc/Bioloop/blob/main/Image3.png?raw=true" alt="Image 3" width="200"/>
+    </td>
+    <td>
+      <img src="https://github.com/LuleSc/Bioloop/blob/main/Image4.png?raw=true" alt="Image 4" width="200"/>
+    </td>
+  </tr>
+</table>
+
 ![alt text](https://github.com/LuleSc/Bioloop/blob/main/Surface_evolution.png?raw|width=10)
 ![alt text](https://github.com/LuleSc/Bioloop/blob/main/Renovation_surface_evolution.png?raw=true)
 
 
 <img src="https://github.com/LuleSc/Bioloop/blob/main/Image3.png?raw=true" alt="alt text" width="300"/>
-![alt text](https://github.com/LuleSc/Bioloop/blob/main/Image4.png?raw=true)
+<img src="https://github.com/LuleSc/Bioloop/blob/main/Image4.png?raw=true" alt="alt text" width="300"/>
+
 
 
 
