@@ -21,20 +21,23 @@ Using life cycle assessments (LCA) of buildings based on real-world cases, we ca
 
 Key Steps in the Model:
 1. Calculating Total Impact of the Building Stock
+   
 The total environmental impact is based on the evolution of the energy reference area:
  a) Renovated areas are computed annually using a configurable renovation rate.
  b) Demolished areas are calculated similarly.
 
 2. Calculating Newly Constructed Areas
+   
 The model assumes population growth projections from the Swiss 2050 scenario.
+
 Total surface requirements are estimated as the population (configurable) multiplied by the square meters per person (also configurable).
 The difference between the total required surface and the existing stock (including demolished areas) determines the area to be newly constructed.
 
 3. Impact and Material Calculations
+   
 For each scenario, archetype, and building type, the evolution of building surfaces is multiplied by the impacts and material requirements per square meter.
 
 Configurable Parameters:
-- Building Surface Evolution:
 1. Renovated areas
 2. Demolished areas
 3. Square Meters Per Inhabitant
