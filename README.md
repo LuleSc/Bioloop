@@ -23,8 +23,8 @@ Key Steps in the Model:
 1. Calculating Total Impact of the Building Stock
    
 The total environmental impact is based on the evolution of the energy reference area:
- a) Renovated areas are computed annually using a configurable renovation rate.
- b) Demolished areas are calculated similarly.
+a) Renovated areas are computed annually using a configurable renovation rate.
+b) Demolished areas are calculated similarly.
 
 2. Calculating Newly Constructed Areas
    
