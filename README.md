@@ -2,49 +2,50 @@
 
 
 ## Description
-Ce code permet d'évaluer le potentiel de stockage carbone de parc bâti Suisse à travers l’utilisation de matériaux biosourcés dans la construction et la rénovation des bâtiments en Suisse. 
-
-
+This project evaluates the carbon storage potential of the Swiss building stock through the use of bio-based materials in the construction and renovation of buildings in Switzerland.
 
 See project definition in https://www.buildinglowcarbon.com/projects/bioloop
 
 
 ## Usage
-Identifier la demande de matériaux future pour le stock Suisse 
-
-Calcul de la capacité de puits potentiel du stock bâti Suisse 
-objectif de quantifier en tonnes de carbone la contribution du stockage carbone dans les constructions 
- 
-Use examples liberally, and show the expected output if you can. It's helpful to have inline the smallest example of usage that you can demonstrate, while providing links to more sophisticated examples if they are too long to reasonably include in the README.
-
-Un modèle du stock bâti sera mis en place pour pouvoir modéliser l’effet sur les émissions cumulatives d’ici 2050 des solutions constructives identifiés
- et de dire la contribution potentielle de ces matériaux. 
- 
-Le modèle permettra aussi d’estimer la demande en matériaux de la totalité du stock par rapport à l’approvisionnement local. 
+The primary objectives of this project are:
+1. Quantify the total carbon emission of the Swiss building stock
+2. Quantify the potential carbon sink capacity of the Swiss building stock by estimating the carbon storage contribution of construction and renovation activities
+3. Identify the most influential parameters affecting carbon emissions and storage potential
+4. Identify future material demand for the Swiss building stock.
 
 ## How it works
+This project builds a dynamic numerical model to estimate the evolution of construction activities and their respective emissions up to 2050.
 
-Construction d’un modèle numérique dynamique pour estimer l’évolution des activités de construction et les émissions respectives jusqu’en 2050 en intégrants les éléments suivants : 
-Evolution des surfaces à rénover et neuves 
-Analyse de cycle de vie dynamique pour inclure la temporalité des émissions 
-Scénarios de fin de vie des composants constructifs et des matériaux 
-Durée de vie des composants pour évaluer le gisement du réemploi 
+Using life cycle assessments (LCA) of buildings based on real-world cases, we calculate the environmental impacts and material requirements. The current building stock is reconstructed using building registry data, and archetypes are applied to define the surface areas of building elements. This allows the impact to be calculated per square meter of energy reference area.
 
+Key Steps in the Model:
+1. Calculating Total Impact of the Building Stock
+The total environmental impact is based on the evolution of the energy reference area:
+ a) Renovated areas are computed annually using a configurable renovation rate.
+ b) Demolished areas are calculated similarly.
 
+2. Calculating Newly Constructed Areas
+The model assumes population growth projections from the Swiss 2050 scenario.
+Total surface requirements are estimated as the population (configurable) multiplied by the square meters per person (also configurable).
+The difference between the total required surface and the existing stock (including demolished areas) determines the area to be newly constructed.
 
-Paramétrisation des paramètres les plus impactant pour extraire différents scénarios 
-Taux de réemploi 
-Scénarios de fin de vie 
-Taux de rénovation 
-Etc. 	
+3. Impact and Material Calculations
+For each scenario, archetype, and building type, the evolution of building surfaces is multiplied by the impacts and material requirements per square meter.
 
+Configurable Parameters:
+- Building Surface Evolution:
+1. Renovated areas
+2. Demolished areas
+3. Square Meters Per Inhabitant
+4. Scenario:
+The impact and material data are derived from LCAs of four building types (SFH and MFH) across real-world cases, including both new construction and renovation. For each case, three scenarios are provided: Optimistic, Medium Business-as-Usual (BAU)
+This flexibility allows users to simulate various scenarios and evaluate the potential outcomes on emissions and resource use.
 
 ## Main results
 
-Paralele coordinate in Bioloop
-
-
-Depending on what you are making, it can be a good idea to include screenshots or even a video (you'll frequently see GIFs rather than actual videos). Tools like ttygif can help, but check out Asciinema for a more sophisticated method.
+The results are visualized using parallel coordinate plots and other graphical tools available in Bioloop. These visualizations provide insights into the relationship between key parameters and their impact on cumulative emissions and material demand.
+Available in https://www.buildinglowcarbon.com/projects/bioloop
 
 <table>
   <tr>
@@ -64,18 +65,6 @@ Depending on what you are making, it can be a good idea to include screenshots o
     </td>
   </tr>
 </table>
-
-
-
-
-
-## Roadmap
-If you have ideas for releases in the future, it is a good idea to list them in the README.
-
-
-
-## Authors and acknowledgment
-Show your appreciation to those who have contributed to the project.
 
 ## License
 For open source projects, say how it is licensed.
