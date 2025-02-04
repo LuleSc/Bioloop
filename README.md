@@ -5,9 +5,11 @@
 This project evaluates the carbon storage potential of the Swiss building stock through the use of bio-based materials in the construction and renovation of buildings in Switzerland.
 
 See project definition in https://www.buildinglowcarbon.com/projects/bioloop
+
 Project funded by HES-SO University of Applied Sciences and Arts Western Switzerland
 
 Collaboration:
+
 Energy Institute, HEIA University of Applied Sciences of Engineering and Architecture, HES-SO University of Applied Sciences and Arts Western Switzerland, Fribourg, Switzerland
 inPACT Institute, HEPIA University of Applied Sciences of Landscape, Engineering and Architecture, HES-SO University of Applied Sciences and Arts Western Switzerland, Geneva, Switzerland
 
