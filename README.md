@@ -11,6 +11,7 @@ Project funded by HES-SO University of Applied Sciences and Arts Western Switzer
 Collaboration:
 
 Energy Institute, HEIA University of Applied Sciences of Engineering and Architecture, HES-SO University of Applied Sciences and Arts Western Switzerland, Fribourg, Switzerland
+
 inPACT Institute, HEPIA University of Applied Sciences of Landscape, Engineering and Architecture, HES-SO University of Applied Sciences and Arts Western Switzerland, Geneva, Switzerland
 
 
