@@ -5,6 +5,11 @@
 This project evaluates the carbon storage potential of the Swiss building stock through the use of bio-based materials in the construction and renovation of buildings in Switzerland.
 
 See project definition in https://www.buildinglowcarbon.com/projects/bioloop
+Project funded by HES-SO University of Applied Sciences and Arts Western Switzerland
+
+Collaboration:
+Energy Institute, HEIA University of Applied Sciences of Engineering and Architecture, HES-SO University of Applied Sciences and Arts Western Switzerland, Fribourg, Switzerland
+inPACT Institute, HEPIA University of Applied Sciences of Landscape, Engineering and Architecture, HES-SO University of Applied Sciences and Arts Western Switzerland, Geneva, Switzerland
 
 
 ## Usage
@@ -45,6 +50,13 @@ Configurable Parameters:
 The impact and material data are derived from LCAs of four building types (SFH and MFH) across real-world cases, including both new construction and renovation. For each case, three scenarios are provided: Optimistic, Medium Business-as-Usual (BAU)
 This flexibility allows users to simulate various scenarios and evaluate the potential outcomes on emissions and resource use.
 
+## Code description
+The main running code is "main.py" where input parameters can be modified in section "INPUT" and the desired outcome for the graphs in section "Outcome"
+
+a) "Class_dev_V5" create object as the archetype and the building
+b) "graph_function" is used to compute graphs
+c) "Regbl" folder is used to create the building stock from the RegBl database
+
 ## Main results
 
 The results are visualized using parallel coordinate plots and other graphical tools available in Bioloop. These visualizations provide insights into the relationship between key parameters and their impact on cumulative emissions and material demand.
@@ -70,4 +82,4 @@ Available in https://www.buildinglowcarbon.com/projects/bioloop
 </table>
 
 ## License
-For open source projects, say how it is licensed.
+CC BY 4.0
