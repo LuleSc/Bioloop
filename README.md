@@ -57,13 +57,15 @@ This flexibility allows users to simulate various scenarios and evaluate the pot
 The main running code is "main.py" where input parameters can be modified in section "INPUT" and the desired outcome for the graphs in section "Outcome"
 
 a) "Class_dev_V5" create object as the archetype and the building
+
 b) "graph_function" is used to compute graphs
+
 c) "Regbl" folder is used to create the building stock from the RegBl database
 
 ## Main results
 
 The results are visualized using parallel coordinate plots and other graphical tools available in Bioloop. These visualizations provide insights into the relationship between key parameters and their impact on cumulative emissions and material demand.
-Available in https://www.buildinglowcarbon.com/projects/bioloop
+Available in https://www.buildinglowcarbon.com/general-5-1
 
 <table>
   <tr>
